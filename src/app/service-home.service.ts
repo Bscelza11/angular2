@@ -25,7 +25,7 @@ export class ServiceHomeService {
       }),
       new cardItem(QuoteCardComponent, {
       author:'Marcus Tullius Cicero',
-      description: 'If you have a garden and a library, you have everything you need.'
+      description: '"If you have a garden and a library, you have everything you need."'
       }), 
       new cardItem(ProductCardComponent, {
         title: 'Grey Pot',
@@ -35,11 +35,11 @@ export class ServiceHomeService {
       }),
       new cardItem(QuoteCardComponent, {
         author: 'Walter Hagen',
-        description: 'You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way.',
+        description: '"You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way."',
       }),
       new cardItem(QuoteCardComponent, {
         author: 'Audrey Hepburn',
-        description: 'To plant a garden is to believe in tomorrow.',
+        description: '"To plant a garden is to believe in tomorrow."',
       })
     ]
   }
