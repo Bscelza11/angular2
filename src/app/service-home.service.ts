@@ -21,7 +21,7 @@ export class ServiceHomeService {
         title: 'Best indoor plants',
         author: 'Dayana Jabif',
         description: 'Discover the best 10 indoor plants to add color and interest to every room with our easy-to-follow guide. Full of expert tips as to which house plants will survive best in your home, you can banish any worries of green fingered failures for good.',
-        date: '05-20-2022'
+        date: '05/20/2022'
       }),
       new cardItem(QuoteCardComponent, {
       author:'Marcus Tullius Cicero',
