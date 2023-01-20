@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { cardItem } from './cardItem.model';
-import { ServiceHomeService } from './service-home.service';
+import { cardItem } from './CardItem.model';
+import { ServiceHomeService } from './Service-home.service';
 
 @Component({
   selector: 'app-root',

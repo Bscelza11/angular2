@@ -1,8 +1,8 @@
 
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
-import { AdComponent } from '../ad.component';
-import { adDirective } from '../ad.directive';
-import { cardItem } from '../cardItem.model';
+import { AdComponent } from '../Ad.component';
+import { adDirective } from '../Ad.directive';
+import { cardItem } from '../CardItem.model';
 
 @Component({
   selector: 'app-gallery',

@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { AdComponent } from 'src/app/ad.component';
+import { AdComponent } from 'src/app/Ad.component';
 
 
 @Component({

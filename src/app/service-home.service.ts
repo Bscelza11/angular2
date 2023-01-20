@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { cardItem } from './cardItem.model';
-import { PostCardComponent } from './Shared/card-templates/post-card/post-card.component';
-import { ProductCardComponent } from './Shared/card-templates/product-card/product-card.component';
-import { QuoteCardComponent } from './Shared/card-templates/quote-card/quote-card.component';
+import { cardItem } from './CardItem.model';
+import { PostCardComponent } from './Shared/card-templates/Post-card/Post-card.component';
+import { ProductCardComponent } from './Shared/card-templates/Product-card/Product-card.component';
+import { QuoteCardComponent } from './Shared/card-templates/Quote-card/Quote-card.component';
 
 @Injectable({
   providedIn: 'root'
