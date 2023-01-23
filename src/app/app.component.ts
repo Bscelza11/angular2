@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { cardItem } from './CardItem.model';
+import { ServiceHomeService } from './Service-home.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'challenge2';
+   adItem: cardItem[] = [];
+
+   constructor(private serviceHome: ServiceHomeService) {}
+
+   ngOnInit(){
+    this.adItem = this.serviceHome.getAds();
+   }
+
+
 }
